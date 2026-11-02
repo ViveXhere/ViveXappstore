@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBER_CORE // App Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .neon-glow {
+            box-shadow: 0 0 20px rgba(255, 0, 60, 0.4);
+        }
+        .neon-glow-hover:hover {
+            box-shadow: 0 0 25px rgba(255, 0, 60, 0.8);
+            border-color: #ff003c;
+        }
+        .neon-text {
+            text-shadow: 0 0 10px rgba(255, 0, 60, 0.7);
+        }
+        body {
+            background-color: #030303;
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(255, 0, 60, 0.1) 0%, transparent 50%),
+                linear-gradient(to right, rgba(20, 20, 20, 0.3) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(20, 20, 20, 0.3) 1px, transparent 1px);
+            background-size: 100% 100%, 40px 40px, 40px 40px;
+        }
+    </style>
+</head>
+<body class="text-gray-200 font-mono min-h-screen selection:bg-red-600 selection:text-white">
+
+    <!-- Cyberpunk Top Status Bar -->
+    <div class="bg-red-950/40 border-b border-red-900/50 text-red-500 text-xs py-1.5 px-4 text-center tracking-widest uppercase animate-pulse">
+        [ GITHUB DEPLOYMENT // STATUS: ACTIVE // PROTOCOL: CYBER_RED ]
+    </div>
+
+    <!-- Main Container -->
+    <div class="max-w-4xl mx-auto px-4 py-12">
+
+        <!-- 1. TOP SECTION: Your Details -->
+        <header class="text-center mb-16 relative">
+            <!-- Profile Image (Named: profile.jpg) -->
+            <div class="relative w-36 h-36 mx-auto mb-6">
+                <div class="absolute inset-0 rounded-2xl bg-red-600 blur-md opacity-50 animate-pulse"></div>
+                <img src="profile.jpg" alt="Profile Picture" class="relative w-36 h-36 rounded-2xl mx-auto border-2 border-red-600 object-cover bg-black" onerror="this.src='https://via.placeholder.com/150'">
+            </div>
+            
+            <h1 class="text-4xl md:text-5xl font-black text-white tracking-wider neon-text uppercase">
+                Tera Naam <span class="text-red-600">.exe</span>
+            </h1>
+            <p class="text-red-500 font-bold mt-2 tracking-widest text-sm uppercase">
+                &lt; Full-Stack Developer & Android Creator /&gt;
+            </p>
+            <p class="text-gray-400 max-w-xl mx-auto mt-4 text-sm leading-relaxed border border-red-950/80 bg-black/60 p-4 rounded-xl shadow-inner">
+                Welcome to my digital vault. Explore and download my custom-built Android applications directly from this secure interface.
+            </p>
+        </header>
+
+        <!-- 2. SECTION: Deployed Apps [ViveXrec & ViveXclick] -->
+        <section class="mb-16">
+            <h2 class="text-xl font-bold text-white mb-6 tracking-wider flex items-center gap-3 border-l-4 border-red-600 pl-3 uppercase">
+                <span class="text-red-600">01.</span> Deployed Apps [APKs]
+            </h2>
+
+            <!-- Apps Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <!-- App 1: ViveXrec -->
+                <div class="bg-black/80 border border-red-950 rounded-xl p-6 flex flex-col justify-between neon-glow-hover transition-all duration-300">
+                    <div>
+                        <div class="flex items-center gap-4 mb-4">
+                            <!-- App Logo (Named: vivexrec-logo.png) -->
+                            <div class="w-14 h-14 bg-red-950/80 border border-red-600 rounded-lg flex items-center justify-center overflow-hidden neon-glow">
+                                <img src="vivexrec-logo.png" alt="ViveXrec Logo" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='🎙️'">
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-white tracking-wide">ViveXrec</h3>
+                                <span class="text-[10px] bg-red-950 text-red-400 px-2 py-0.5 rounded border border-red-800 uppercase tracking-widest">v1.0-STABLE</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-400 text-xs leading-relaxed mb-6">
+                            Advanced high-performance recording utility engineered for crystal-clear audio and seamless media capture.
+                        </p>
+                    </div>
+                    <!-- Download Link (Named: vivexrec.apk) -->
+                    <a href="vivexrec.apk" download class="w-full bg-red-600 hover:bg-red-700 text-black font-black text-xs uppercase tracking-widest py-3 rounded-lg transition duration-200 shadow-lg flex items-center justify-center gap-2 border border-red-500 hover:shadow-[0_0_15px_rgba(255,0,60,0.8)]">
+                        📥 DOWNLOAD_VIVEXREC [APK]
+                    </a>
+                </div>
+
+                <!-- App 2: ViveXclick -->
+                <div class="bg-black/80 border border-red-950 rounded-xl p-6 flex flex-col justify-between neon-glow-hover transition-all duration-300">
+                    <div>
+                        <div class="flex items-center gap-4 mb-4">
+                            <!-- App Logo (Named: vivexclick-logo.png) -->
+                            <div class="w-14 h-14 bg-red-950/80 border border-red-600 rounded-lg flex items-center justify-center overflow-hidden neon-glow">
+                                <img src="vivexclick-logo.png" alt="ViveXclick Logo" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='📸'">
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-white tracking-wide">ViveXclick</h3>
+                                <span class="text-[10px] bg-red-950 text-red-400 px-2 py-0.5 rounded border border-red-800 uppercase tracking-widest">v1.0-STABLE</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-400 text-xs leading-relaxed mb-6">
+                            Next-generation rapid capture application optimized for ultra-fast snapshot execution and custom filters.
+                        </p>
+                    </div>
+                    <!-- Download Link (Named: vivexclick.apk) -->
+                    <a href="vivexclick.apk" download class="w-full bg-red-600 hover:bg-red-700 text-black font-black text-xs uppercase tracking-widest py-3 rounded-lg transition duration-200 shadow-lg flex items-center justify-center gap-2 border border-red-500 hover:shadow-[0_0_15px_rgba(255,0,60,0.8)]">
+                        📥 DOWNLOAD_VIVEXCLICK [APK]
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 3. SECTION: Upcoming Prototypes (Optional placeholder) -->
+        <section class="mb-16">
+            <h2 class="text-xl font-bold text-white mb-6 tracking-wider flex items-center gap-3 border-l-4 border-red-600/50 pl-3 uppercase">
+                <span class="text-red-600">02.</span> Upcoming Prototypes
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-black/40 border border-dashed border-red-950 rounded-xl p-6 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-red-950/60 text-red-500 text-[9px] px-3 py-1 border-b border-l border-red-900 uppercase tracking-widest">
+                        PHASE: RESEARCH
+                    </div>
+                    <div class="flex items-center gap-4 mb-3">
+                        <div class="w-12 h-12 bg-black border border-red-950 rounded-lg flex items-center justify-center text-xl text-red-600">
+                            🚀
+                        </div>
+                        <div>
+                            <h3 class="text-md font-bold text-gray-300 tracking-wide">Next Cyber Project</h3>
+                            <span class="text-[10px] text-red-500 font-semibold uppercase tracking-wider">[Status: Blueprint]</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-500 text-xs leading-relaxed">
+                        Currently in conceptual design phase. Stay tuned for updates.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-red-900 text-xs tracking-widest mt-20 pt-6 border-t border-red-950/80 uppercase">
+            // HOSTED ON GITHUB PAGES // &copy; 2024 TERA_NAAM. ALL RIGHTS RESERVED.
+        </footer>
+
+    </div>
+
+</body>
+</html>
